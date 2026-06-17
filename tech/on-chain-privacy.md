@@ -16,7 +16,7 @@ In privacy-native blockchains, strong transaction and data privacy is achievable
 
 Today, a mature and rich dApp ecosystem can only really be found on traceable native blockchains like Ethereum. So from a product perspective, the more practical path is to look for solutions that layer privacy on top of transparent, transaction-like operations. Native traceability means anyone can read off the sender, the receiver, and the amount directly from a transaction. To break that, two things need to happen: cut off the link between sender and receiver, and hide the amount.
 
-It sounds a bit like "having your cake and eating it too." The short answer is: yes, you can, just not as completely as on Zcash.
+It sounds a bit like "having your cake and eating it too." The short answer is: yes, you can, just not as completely as on native privacy chains.
 
 Start with the first problem: cutting off the relationship between sender and receiver. We can't change how native transactions work, so the first step is splitting one transfer into two. Alice deposits her assets with a third party, and later Bob withdraws assets from that same third party. To keep things self-custodied, the "third party" is typically a smart contract that's unowned and unupgradeable, so no one — not even its deployer — can interfere with it. From there, the mechanics are simple:
 - A deposit into the smart contract, with the eventual receiver hidden.
