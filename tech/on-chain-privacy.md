@@ -8,7 +8,7 @@ But not always. Sometimes privacy isn't optional: a business doesn't want compet
 
 Privacy-native chains first made this real by applying zk-SNARKs — a form of zero-knowledge proof — to support "shielded" transactions in which the sender, the receiver, and the amount are all encrypted on-chain. Instead of publishing those details, the sender publishes a cryptographic proof that the transaction is valid: the funds exist, they haven't already been spent, and the books still balance, all without revealing who is involved or how much is moving. Validators check the proof, not the data, so the network stays fully verifiable while the transaction itself stays opaque.
 
-Newer privacy chains push the idea further. Aleo extend zero-knowledge proofs beyond simple value transfers to entire private smart contracts, letting arbitrary programs run on hidden inputs and outputs while still proving to the network that every execution followed the rules.
+Newer privacy chains push the idea further. They extend zero-knowledge proofs beyond simple value transfers to entire private smart contracts, letting arbitrary programs run on hidden inputs and outputs while still proving to the network that every execution followed the rules.
 
 In privacy-native blockchains, strong transaction and data privacy is achievable, but building a rich, production-grade dApp ecosystem is significantly harder than on transparent chains like Ethereum.
 
